@@ -28,4 +28,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - TableViewDelegate
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 100;
+}
+
 @end
